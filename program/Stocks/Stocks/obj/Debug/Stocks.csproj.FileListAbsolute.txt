@@ -1,0 +1,7 @@
+C:\Users\Wolfy\Desktop\Duomenu analitika\Projektas\program\Stocks\Stocks\bin\Debug\Stocks.exe.config
+C:\Users\Wolfy\Desktop\Duomenu analitika\Projektas\program\Stocks\Stocks\bin\Debug\Stocks.exe
+C:\Users\Wolfy\Desktop\Duomenu analitika\Projektas\program\Stocks\Stocks\bin\Debug\Stocks.pdb
+C:\Users\Wolfy\Desktop\Duomenu analitika\Projektas\program\Stocks\Stocks\obj\Debug\Stocks.csproj.AssemblyReference.cache
+C:\Users\Wolfy\Desktop\Duomenu analitika\Projektas\program\Stocks\Stocks\obj\Debug\Stocks.csproj.CoreCompileInputs.cache
+C:\Users\Wolfy\Desktop\Duomenu analitika\Projektas\program\Stocks\Stocks\obj\Debug\Stocks.exe
+C:\Users\Wolfy\Desktop\Duomenu analitika\Projektas\program\Stocks\Stocks\obj\Debug\Stocks.pdb

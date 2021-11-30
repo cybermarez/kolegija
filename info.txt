@@ -1,0 +1,27 @@
+Software reikia:
+SSMS: https://aka.ms/ssmsfullsetup
+Server: https://www.microsoft.com/en-us/sql-server/sql-server-downloads?rtc=1
+
+SQL query pagal kuria galima rasti string kuri reikia deti i koda:
+
+Mano pvz: using (SqlConnection conn = new SqlConnection(@"data source=DESKTOP-JCR4R6U;initial catalog=Dataset;trusted_connection=true"))
+
+Query tam issaiskinti:
+
+select
+    'data source=' + @@servername +
+    ';initial catalog=' + db_name() +
+    case type_desc
+        when 'WINDOWS_LOGIN' 
+            then ';trusted_connection=true'
+        else
+            ';user id=' + suser_name() + ';password=<<YourPassword>>'
+    end
+    as ConnectionString
+from sys.server_principals
+where name = suser_name()
+
+source: https://stackoverflow.com/questions/10479763/how-to-get-the-connection-string-from-a-database
+
+Kaip importuoti/eksportuoti: https://www.youtube.com/watch?v=XLzV_gagkZc&ab_channel=linkedSoftwares
+
